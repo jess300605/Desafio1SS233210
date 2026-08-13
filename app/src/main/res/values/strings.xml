@@ -7,4 +7,21 @@
     <string name="btn_ejercicio2">Ejercicio 2: Salario</string>
     <string name="btn_ejercicio3">Ejercicio 3: Calculadora</string>
     <string name="btn_regresar">Regresar al Menú</string>
+
+    <!-- Ejercicio 1: Promedio -->
+    <string name="promedio_titulo">Promedio del Estudiante</string>
+    <string name="hint_nombre">Nombre del estudiante</string>
+    <string name="hint_nota1">Nota 1 (25%)</string>
+    <string name="hint_nota2">Nota 2 (25%)</string>
+    <string name="hint_nota3">Nota 3 (20%)</string>
+    <string name="hint_nota4">Nota 4 (15%)</string>
+    <string name="hint_nota5">Nota 5 (15%)</string>
+    <string name="btn_calcular_promedio">Calcular Promedio</string>
+    <string name="error_campo_vacio">Este campo es obligatorio</string>
+    <string name="error_rango_nota">La nota debe estar entre 0 y 10</string>
+    <string name="error_nombre_vacio">Ingrese el nombre del estudiante</string>
+    <string name="resultado_aprobado">Aprobado</string>
+    <string name="resultado_reprobado">Reprobado</string>
+    <string name="notif_titulo">Resultado del Promedio</string>
+    <string name="notif_canal_nombre">Notificaciones de Promedio</string>
 </resources>
