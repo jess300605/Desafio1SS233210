@@ -24,4 +24,19 @@
     <string name="resultado_reprobado">Reprobado</string>
     <string name="notif_titulo">Resultado del Promedio</string>
     <string name="notif_canal_nombre">Notificaciones de Promedio</string>
+
+
+    <!-- Ejercicio 2: Salario -->
+    <string name="salario_titulo">Descuentos al Salario</string>
+    <string name="hint_nombre_empleado">Nombre del empleado</string>
+    <string name="hint_salario_base">Salario base ($)</string>
+    <string name="btn_calcular_salario">Calcular Salario</string>
+    <string name="error_salario_invalido">El salario debe ser un número positivo</string>
+    <string name="label_salario_bruto">Salario Bruto</string>
+    <string name="label_salario_neto">Salario Neto</string>
+    <string name="label_renta">Renta</string>
+    <string name="label_afp">AFP (7.25%%)</string>
+    <string name="label_isss">ISSS (3%%)</string>
+
+
 </resources>
