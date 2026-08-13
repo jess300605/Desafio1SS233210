@@ -38,5 +38,23 @@
     <string name="label_afp">AFP (7.25%%)</string>
     <string name="label_isss">ISSS (3%%)</string>
 
+    <!-- Ejercicio 3: Calculadora -->
+    <string name="calculadora_titulo">Calculadora Básica</string>
+    <string name="hint_num1">Número 1</string>
+    <string name="hint_num2">Número 2 / Exponente</string>
+    <string name="error_num_invalido">Ingrese un número válido</string>
+    <string name="error_division_cero">No se puede dividir entre cero</string>
+    <string name="error_raiz_negativa">No existe raíz real de un número negativo</string>
+    <string name="btn_ver_historial">Ver Historial</string>
+    <string name="historial_titulo">Historial de Operaciones</string>
+    <string name="historial_vacio">Aún no hay operaciones registradas</string>
+    <string name="btn_cerrar">Cerrar</string>
+    <string name="desc_suma">Sumar</string>
+    <string name="desc_resta">Restar</string>
+    <string name="desc_multiplicar">Multiplicar</string>
+    <string name="desc_dividir">Dividir</string>
+    <string name="desc_potencia">Elevar a exponente</string>
+    <string name="desc_raiz">Raíz cuadrada</string>
+
 
 </resources>
