@@ -1,0 +1,8 @@
+<resources>
+    <dimen name="margin_default">16dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="padding_default">16dp</dimen>
+    <dimen name="text_size_title">22sp</dimen>
+    <dimen name="text_size_normal">16sp</dimen>
+    <dimen name="button_spacing">12dp</dimen>
+</resources>
