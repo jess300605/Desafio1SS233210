@@ -2,7 +2,7 @@ package com.example.desafio1ss233210.utils
 
 object Calculos {
 
-    // Ponderaciones: 25%, 25%, 20%, 15%, 15%
+    // Ejercicio 1
     fun calcularPromedio(n1: Double, n2: Double, n3: Double, n4: Double, n5: Double): Double {
         return (n1 * 0.25) + (n2 * 0.25) + (n3 * 0.20) + (n4 * 0.15) + (n5 * 0.15)
     }
@@ -13,5 +13,29 @@ object Calculos {
 
     fun notaEnRango(nota: Double): Boolean {
         return nota in 0.0..10.0
+    }
+
+
+    // Ejercicio 2
+    fun calcularAfp(salario: Double): Double {
+        return salario * 0.0725
+    }
+
+    fun calcularIsss(salario: Double): Double {
+        return salario * 0.03
+    }
+
+    // Recibe la RENTA IMPONIBLE (salario ya menos AFP e ISSS), no el salario bruto
+    fun calcularRenta(rentaImponible: Double): Double {
+        return when {
+            rentaImponible <= 472.00 -> 0.0
+            rentaImponible <= 895.24 -> ((rentaImponible - 472.00) * 0.10) + 17.67
+            rentaImponible <= 2038.10 -> ((rentaImponible - 895.24) * 0.20) + 60.00
+            else -> ((rentaImponible - 2038.10) * 0.30) + 288.57
+        }
+    }
+
+    fun calcularSalarioNeto(salarioBruto: Double, renta: Double, afp: Double, isss: Double): Double {
+        return salarioBruto - renta - afp - isss
     }
 }
