@@ -25,6 +25,8 @@
             android:layout_height="wrap_content"
             android:hint="@string/hint_num1"
             android:inputType="numberDecimal|numberSigned"
+            android:textColor="@color/black"
+            android:textColorHint="#757575"
             android:layout_marginBottom="@dimen/margin_small"/>
 
         <EditText
@@ -33,8 +35,9 @@
             android:layout_height="wrap_content"
             android:hint="@string/hint_num2"
             android:inputType="numberDecimal|numberSigned"
+            android:textColor="@color/black"
+            android:textColorHint="#757575"
             android:layout_marginBottom="@dimen/margin_default"/>
-
         <GridLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

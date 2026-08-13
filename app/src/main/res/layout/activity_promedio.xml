@@ -19,13 +19,14 @@
             android:textStyle="bold"
             android:layout_gravity="center"
             android:layout_marginBottom="24dp"/>
-
         <EditText
             android:id="@+id/etNombre"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/hint_nombre"
             android:inputType="textPersonName"
+            android:textColor="@color/black"
+            android:textColorHint="#757575"
             android:layout_marginBottom="@dimen/margin_small"/>
 
         <EditText
@@ -34,6 +35,8 @@
             android:layout_height="wrap_content"
             android:hint="@string/hint_nota1"
             android:inputType="numberDecimal"
+            android:textColor="@color/black"
+            android:textColorHint="#757575"
             android:layout_marginBottom="@dimen/margin_small"/>
 
         <EditText
@@ -42,6 +45,8 @@
             android:layout_height="wrap_content"
             android:hint="@string/hint_nota2"
             android:inputType="numberDecimal"
+            android:textColor="@color/black"
+            android:textColorHint="#757575"
             android:layout_marginBottom="@dimen/margin_small"/>
 
         <EditText
@@ -50,6 +55,8 @@
             android:layout_height="wrap_content"
             android:hint="@string/hint_nota3"
             android:inputType="numberDecimal"
+            android:textColor="@color/black"
+            android:textColorHint="#757575"
             android:layout_marginBottom="@dimen/margin_small"/>
 
         <EditText
@@ -58,6 +65,8 @@
             android:layout_height="wrap_content"
             android:hint="@string/hint_nota4"
             android:inputType="numberDecimal"
+            android:textColor="@color/black"
+            android:textColorHint="#757575"
             android:layout_marginBottom="@dimen/margin_small"/>
 
         <EditText
@@ -66,8 +75,9 @@
             android:layout_height="wrap_content"
             android:hint="@string/hint_nota5"
             android:inputType="numberDecimal"
+            android:textColor="@color/black"
+            android:textColorHint="#757575"
             android:layout_marginBottom="@dimen/margin_default"/>
-
         <Button
             android:id="@+id/btnCalcularPromedio"
             android:layout_width="match_parent"
