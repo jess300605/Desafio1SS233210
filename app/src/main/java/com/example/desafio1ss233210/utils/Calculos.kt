@@ -38,4 +38,21 @@ object Calculos {
     fun calcularSalarioNeto(salarioBruto: Double, renta: Double, afp: Double, isss: Double): Double {
         return salarioBruto - renta - afp - isss
     }
+
+// Ejercicio 3
+fun sumar(a: Double, b: Double): Double = a + b
+fun restar(a: Double, b: Double): Double = a - b
+fun multiplicar(a: Double, b: Double): Double = a * b
+
+fun dividir(a: Double, b: Double): Double? {
+    if (b == 0.0) return null
+    return a / b
+}
+
+fun potencia(base: Double, exponente: Double): Double = Math.pow(base, exponente)
+
+fun raizCuadrada(a: Double): Double? {
+    if (a < 0) return null
+    return Math.sqrt(a)
+}
 }
