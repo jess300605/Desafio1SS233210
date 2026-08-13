@@ -26,6 +26,8 @@
             android:layout_height="wrap_content"
             android:hint="@string/hint_nombre_empleado"
             android:inputType="textPersonName"
+            android:textColor="@color/black"
+            android:textColorHint="#757575"
             android:layout_marginBottom="@dimen/margin_small"/>
 
         <EditText
@@ -34,8 +36,9 @@
             android:layout_height="wrap_content"
             android:hint="@string/hint_salario_base"
             android:inputType="numberDecimal"
+            android:textColor="@color/black"
+            android:textColorHint="#757575"
             android:layout_marginBottom="@dimen/margin_default"/>
-
         <Button
             android:id="@+id/btnCalcularSalario"
             android:layout_width="match_parent"

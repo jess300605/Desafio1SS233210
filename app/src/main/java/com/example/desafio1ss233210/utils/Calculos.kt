@@ -22,7 +22,9 @@ object Calculos {
     }
 
     fun calcularIsss(salario: Double): Double {
-        return salario * 0.03
+        val techoIsss = 1000.0
+        val baseCotizable = if (salario > techoIsss) techoIsss else salario
+        return baseCotizable * 0.03
     }
 
     // Recibe la RENTA IMPONIBLE (salario ya menos AFP e ISSS), no el salario bruto
