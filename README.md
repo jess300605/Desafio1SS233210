@@ -53,4 +53,5 @@ Suma, resta, multiplicación, división, exponente y raíz cuadrada con botones 
 Build → Generate Signed Bundle / APK → APK.
 
 ## Autor
-Proyecto individual — Desafío Práctico 10%, Desarrollo de Software para Móvil, UDB.
+Proyecto individual desarrollado por Jesus Ernesto Sanabria Sibrian 
+— Desafío Práctico 10%, Desarrollo de Software para Móvil, UDB.
