@@ -17,7 +17,10 @@ app/
  ├── utils/Calculos.kt        → Funciones de cálculo
  res/values/                  → strings.xml, colors.xml, dimens.xml
  res/drawable/                → Íconos de la calculadora
+
 ```
+## VIDEO DE FUNCIONAMIENTO
+https://drive.google.com/file/d/1e0oFY3u-2panEIkeWNR3zXtvdAnmVzTA/view?usp=drive_link
 
 ## Ejercicio 1: Promedio del Estudiante
 Nombre + 5 notas ponderadas (25/25/20/15/15%). Valida rango 0–10. Calcula promedio con `DecimalFormat` (2 decimales), indica aprobado/reprobado (≥6.0) y envía una notificación con el resultado.
